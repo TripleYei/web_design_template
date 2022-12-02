@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HELLO</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+	
+	<div id="navbar">
+		<h1>Logo</h1>
+		<ul>
+			<li><a href="index.html">Inicio</a></li>
+			<li><a href="#comments">Comentarios</a></li>
+			<li><a href="#footer">Contacto</a></li>
+		</ul>
+		
+		
+	</div>
+	<div id="container">
+		
+	</div>
+	<div id="comments">
+		<div id="post1">
+			<h1>Título</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.	</p>
+		</div>
+		<div id="post2">
+			<h1>Título</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.	</p>
+		</div>
+		<div id="post3">
+			<h1>Título</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.	</p>
+		</div>
+	</div>
+	<div id="footer">
+		
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<div id="links">
+			<h2>Links</h2>
+			<ul>
+				<li>Datos</li>
+				<li>Ejemplo1</li>
+				<li>Ejemplo2</li>
+			</ul>
+		</div>
+		<div id="ejemplos">
+			<h2>ejemplos</h2>
+			<ul>
+					<li>Enlace</li>
+					<li>Enlace</li>	
+					<li>Ejemplo3</li>
+
+
+			</ul>
+		</div>
+		<div id="paises">
+			<h2>paises</h2>
+			<ul>	
+					<li>España</li>
+					<li>Italia</li>
+					<li>Portugal</li>
+			</ul>
+		</div>
+	</div>
+
+	
+
+	<style>
+		body{
+			margin: 0;
+			background-color:#99ffdf;
+			background-image:
+			radial-gradient(at 63% 79%, hsla(88,95%,66%,1) 0px, transparent 50%),
+			radial-gradient(at 12% 67%, hsla(114,77%,79%,1) 0px, transparent 50%),
+			radial-gradient(at 47% 80%, hsla(315,71%,74%,1) 0px, transparent 50%),
+			radial-gradient(at 78% 41%, hsla(320,85%,66%,1) 0px, transparent 50%),
+			radial-gradient(at 82% 14%, hsla(230,71%,79%,1) 0px, transparent 50%),
+			radial-gradient(at 84% 57%, hsla(283,83%,65%,1) 0px, transparent 50%),
+			radial-gradient(at 6% 5%, hsla(303,87%,76%,1) 0px, transparent 50%);
+			background-repeat: no-repeat;
+			background-position: center;
+			max-width: 100%;
+		}
+
+		#navbar{
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+			
+			color:white;
+			padding: 20px;
+
+		}
+		#navbar ul{
+			display: flex;
+
+		}
+		#navbar li{
+			margin: 80px;
+			list-style-type: none;
+			font-size: 2em;
+		}
+		#navbar a{
+			text-decoration: none;
+			color:white;
+		}
+		#navbar a:hover{
+			background-color: purple;
+			color:white;
+			padding: 5%;
+		}
+		
+		#container{
+			border-top:15px solid white;
+			border-bottom:15px solid white;
+			padding: 25%;
+			background-image: url("https://picsum.photos/200/300");
+			background-position: center;
+			background-size: 100% 100%;
+			background-repeat: no-repeat;
+		}
+
+		#comments{
+			padding: 100px;
+			display: flex;
+			border:5% solid white;
+			column-count: 3;
+
+			
+
+		}
+
+		#comments h1{
+			display: flex;
+			justify-content: center;
+
+		}
+
+		#comments p{
+			text-align-last: end;
+			margin: 25px;
+		}
+		#footer{
+			display: flex;
+			color:white;
+			background-color: gray;
+			justify-content: space-around;
+			align-items: center;
+			
+
+		}
+		#footer pre{
+			margin: 5%;
+			display: flex;
+			justify-content: center;
+			font-size: 1em;
+		}
+
+		#links{
+			margin: 25px;
+		}
+		#ejemplos{
+			margin: 25px;
+		}
+		#paises{
+			margin: 25px;
+		}
+
+		@media only screen and (max-width: 600px){
+			#navbar, ul , li{
+				display: flex;
+				flex-direction: column;
+				padding: 0;
+				align-items: center;
+				justify-content: center;
+				margin: 0;
+
+			}
+
+			#comments{
+				display: flex;
+				flex-direction: column;
+			}
+
+			#footer{
+				display: flex;
+				flex-direction: column;
+
+			}
+			
+		}
+		
+
+
+		
+	</style>
+</body>
+</html>
